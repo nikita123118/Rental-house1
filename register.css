@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,200;1,800&display=swap');
+
+* {
+
+    
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+  
+    text-transform: capitalize;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+  }
+  body{
+    background-image: url(/image/download\ \(10\).jpg);
+
+  }
+  .heading{
+    text-align: center;
+    color: #333;
+    font-size: 4rem;
+    padding-bottom: 2rem;
+    padding-top: -100rem;
+
+
+
+}
+
+.home0{
+     font-size: 2rem;
+}
+
+  
+
+  .register{
+      text-align: center;
+  }
+.register form,
+.login form {
+  max-width: 35rem;
+  border-radius: .5rem;
+  
+  padding-left: 5rem;
+  padding: 1rem;
+  
+  margin-left: 5rem;
+  background: #f7f7f7;
+  border: 0.2rem solid #292726;
+  margin: 1rem auto;
+}
+
+.register form h3,
+.login form h3 {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  color: #333;
+  text-transform: uppercase;
+}
+.login{
+  text-align: center;
+}
+
+.register form .box,
+.login form .box {
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  border-radius: .5rem;
+  border: 0.2rem solid #333;
+  font-size: 1rem;
+  color: #666;
+  text-transform: none;
+  margin: .7rem 0;
+}
+.register{
+  background-image:url("./image/istockphoto-1256263980-170667a.jpg") ;
+}
+.login{
+  background-image:url("./image/istockphoto-1256263980-170667a.jpg") ;
+}
+.home0{
+  font-size:1rem;
+  padding-right: 3rem;
+}
+.register form .remember,
+.login form .remember {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+   align-items: center;
+  gap: .5rem;
+  padding-top: 3.5rem;
+  padding-bottom: 5rem;
+}
+
+.register form .remember label,
+.login form .remember label {
+  font-size: 1rem;
+  color: rgb(117, 84, 84);
+  cursor: pointer;
+}
+
+.register form .btn,
+.login form .btn {
+  width: 100%;
+  text-align: center;
+}
+
+.register form .btn.link,
+.login form .btn.link {
+  background:rgba(83, 44, 21, 0.741);
+}
+
+.register form .btn.link:hover,
+.login form .btn.link:hover {
+ background-image: url(/image/download\ \(10\).jpg);
+}
+
+.register form p,
+.login form p {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  color: #666;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    border-radius: .5rem;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color: rgb(38, 36, 36);
+    cursor: pointer;
+    background:var(--red);
+  }
+ 
+
+  
