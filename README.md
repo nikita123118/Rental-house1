@@ -1,3 +1,4 @@
-# Rental-house1
-this is rental house
-k
+# Rental-house
+Find the perfect rental house.
+
+
